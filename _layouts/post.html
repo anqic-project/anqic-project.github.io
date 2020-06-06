@@ -1,31 +1,28 @@
-<!DOCTYPE html>
-<html lang="{{site.language}}">
-  {% include head.html %}
-  <body>
-	<div id="main">
-  	{% include logo.html %}
-  	{% include nav.html %}
-		<div id="content-left">
-      <div id="post">
-        <h2>{{ page.title }}</h2>
-        <i>posted on {{ page.date | date: "%-d %b %Y" }}</i>
-        {{ content }}
-        {% if page.categories.size > 0 %}
-          <div id="categories">
-            <p><b>Categories:</b>&nbsp;
-              {% for category in page.categories %}
-                <a href="{{site.url}}{{site.baseurl}}/categories/{{category}}/">#{{category}}</a>&nbsp;
-              {% endfor %}
-            </p>
-          </div>
-        {% endif %}
-        {% if site.disqus_username and page.comments or site.comments %}
-          <div id="disqus_thread"></div><!-- /#disqus_thread -->
-          {% include disqus-comments.html %}
-        {% endif %}
-  		</div>
-    </div>
-		{% include footer.html %}
+---
+layout: default
+---
+
+<article>
+
+	<div class="center">
+		<h1 class="title">{{ page.title }}</h1>
+		<time class="code">{{ page.date | date: '%B %-d, %Y' }}</time>
 	</div>
-    </body>
-</html>
+
+	<div class="divider"></div>
+
+	{{ content }}
+
+</article>
+
+<div class="page-navigation code">
+	{% if page.next.url %}
+    <a class="next" href="{{ page.next.url | prepend: site.baseurl | prepend: site.url }}" title="NEXT: {{page.next.title}}">&lt;&lt;</a>
+		<span> &middot; </span>
+  {% endif %}
+		<a class="home" href="{{ "/" | prepend: site.baseurl | prepend: site.url }}" title="Back to Index">Index</a>
+  {% if page.previous.url %}
+		<span> &middot; </span>
+    <a class="prev" href="{{ page.previous.url | prepend: site.baseurl | prepend: site.url }}" title="PREV: {{page.previous.title}}">&gt;&gt;</a>
+  {% endif %}
+</div>
