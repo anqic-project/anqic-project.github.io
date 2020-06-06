@@ -5,7 +5,7 @@ Gem::Specification.new do |spec|
 	spec.email         = ["heiswayi@nullableobject.com"]
 
 	spec.summary       = "A minimalist Jekyll theme"
-	spec.homepage      = "https://github.com/heiswayi/the-plain"
+	spec.homepage      = "https://anqic-project.github.io"
 	spec.license       = "MIT"
 
 	spec.metadata["plugin_type"] = "theme"
@@ -17,4 +17,3 @@ Gem::Specification.new do |spec|
 	spec.add_development_dependency "bundler", "~> 2.0.2"
 	spec.add_development_dependency "rake", "~> 12.0"
 end
-
