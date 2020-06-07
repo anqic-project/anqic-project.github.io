@@ -6,7 +6,7 @@ logo_url:           https://avatars2.githubusercontent.com/u/66107059?v=4
 
 # Site Settings
 #url:                https://anqic-project.github.io # main url
-baseurl:            /anqic-project.github.io
+#baseurl:            /anqic-project.github.io
 timezone:           Asia/Kuala_Lumpur # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            true  # enables support for mathjax - set to 'false' to disable
 
