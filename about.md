@@ -11,4 +11,7 @@ My interests lie in financial markets, data analytics, programming and sometimes
 
  This website is a showcase of my latest projects.
 
- Find me on the below -
+ Drop me an email [here]("mailto:anqi.cheng10@gmail.com") or find me on the below -
+
+ [LinkedIn]("https://www.linkedin.com/in/anqi-cheng-238237172/")
+ [Instagram](https://www.instagram.com/anqistimecapsule/)
