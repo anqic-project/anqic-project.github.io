@@ -12,5 +12,3 @@ My interests lie in financial markets, data analytics, programming and sometimes
  This website is a showcase of my latest projects.
 
  Find me on the below -
-
-<a href="https://www.instagram.com/anqistimecapsule/>Instagram</a>
