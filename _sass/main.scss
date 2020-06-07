@@ -8,6 +8,16 @@ html {
   padding: 0;
   height: 100%;
 }
+
+svg {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 50px;
+  background: blue;
+  fill: white;
+}
+
 body {
   font-size: 14px;
   line-height: 20px;
