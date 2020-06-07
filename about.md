@@ -3,8 +3,14 @@ layout: page
 title: About
 ---
 
-Hello.
+**Hello**.
 
-This will be your About page. Anything about you, it should be written here in details. You may describe your bio here like who you are, what you do, your intention, social site hyperlinks and how people can contact you, etc.
+My name is Anqi.
 
-**Less is more..**
+My interests lie in financial markets, data analytics, programming and sometimes the intersection of the three.
+
+ This website is a showcase of my latest projects.
+
+ Find me on the below -
+
+<a href="https://www.instagram.com/anqistimecapsule/>Instagram</a>
