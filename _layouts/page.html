@@ -10,10 +10,8 @@ layout: default
 
 	{{ content }}
 
-	<a class="home" href="https://www.instagram.com/anqistimecapsule/">instagram</a>
-
+	{% include social-icon.html icon="Instagram" %}	<a href="https://www.instagram.com/anqistimecapsule/">instagram</a>
 </article>
-
 
 <div class="page-navigation code">
 	<a class="home" href="{{ "/" | prepend: site.baseurl | prepend: site.url }}" title="Back to Index">&larr; Index</a>
