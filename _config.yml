@@ -2,7 +2,7 @@
 title:              "The Plain"
 description:        "A minimalist Jekyll theme"
 author_name:        "Anqi Cheng" # change this to your name
-logo_url:           "https://avatars2.githubusercontent.com/u/66107059?v=4"
+logo_url:           https://avatars2.githubusercontent.com/u/66107059?v=4
 
 # Site Settings
 #url:                https://anqic-project.github.io # main url
